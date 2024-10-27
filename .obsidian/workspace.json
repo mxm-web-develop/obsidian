@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0617a2429c977d7f",
+            "id": "34b5ac19f491ddd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文档同步详情.md",
+                "file": "GossipWaves/计划表.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文档同步详情.md",
+                "file": "GossipWaves/计划表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文档同步详情.md",
+                "file": "GossipWaves/计划表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "文档同步详情.md"
+                "file": "GossipWaves/计划表.md"
               }
             }
           }
@@ -146,8 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0617a2429c977d7f",
+  "active": "e88f6ea9aba99556",
   "lastOpenFiles": [
-    "文档同步详情.md"
+    "文档同步详情.md",
+    "GossipWaves/计划表.md",
+    "GossipWaves",
+    "y.pub",
+    "y"
   ]
 }
