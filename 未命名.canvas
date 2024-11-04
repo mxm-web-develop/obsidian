@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"a6dbbcfe61619f14","type":"text","text":" dev branch","x":-925,"y":-180,"width":250,"height":60},
+		{"id":"d9fd55a3157f7ade","type":"text","text":"ssh: dev 145","x":-1400,"y":-180,"width":250,"height":60},
+		{"id":"1f7b2da4ca72c4ea","type":"text","text":"cec平台 branch","x":-580,"y":170,"width":250,"height":60},
+		{"id":"657f21373ab767fa","x":-140,"y":-150,"width":250,"height":60,"type":"text","text":"1.0.8"},
+		{"id":"aae35eb6e2635b85","type":"text","text":"prod branch","x":960,"y":-262,"width":250,"height":60},
+		{"id":"205f2f9f501c9f23","type":"text","text":"tag : npm version","x":960,"y":-150,"width":250,"height":60},
+		{"id":"4915b973abf07cc8","type":"text","text":"build","x":960,"y":-30,"width":250,"height":60},
+		{"id":"00a95391b860a2e6","type":"text","text":"ssh: 11 production","x":960,"y":80,"width":250,"height":60},
+		{"id":"e94dc83d5a7ab37c","type":"text","text":"1.0.4","x":-140,"y":-60,"width":250,"height":60},
+		{"id":"67776b0b62e361e9","type":"text","text":"test branch","x":-140,"y":-520,"width":250,"height":60},
+		{"id":"f625d1b0ce89d281","type":"text","text":"1.0.4","x":-140,"y":-440,"width":250,"height":60},
+		{"id":"2ec9ff07edd36be4","type":"text","text":"ssh: test 12 :9009","x":200,"y":-520,"width":250,"height":60},
+		{"id":"bd839b7c825b5270","type":"text","text":"rag平台 branch","x":-580,"y":-520,"width":250,"height":60},
+		{"id":"7c2f2cc726897396","type":"text","text":"ssh: test 12 9005","x":200,"y":30,"width":250,"height":70},
+		{"id":"28697109bd1c3aa8","type":"text","text":"cec test branch","x":-140,"y":33,"width":250,"height":65},
+		{"id":"4e46ee106caa9728","x":-140,"y":-360,"width":250,"height":60,"type":"text","text":"1.0.5"},
+		{"id":"3170e1af0661a71e","x":300,"y":-228,"width":250,"height":60,"type":"text","text":"prepublish branch"},
+		{"id":"4360c247349b8736","x":620,"y":-230,"width":250,"height":64,"type":"text","text":"1.1.4  test 12 :80"}
+	],
+	"edges":[
+		{"id":"45ba70388ebea08b","fromNode":"bd839b7c825b5270","fromSide":"bottom","toNode":"a6dbbcfe61619f14","toSide":"top","label":"merge"},
+		{"id":"05c06348f286f807","fromNode":"1f7b2da4ca72c4ea","fromSide":"top","toNode":"a6dbbcfe61619f14","toSide":"bottom","label":"merge"},
+		{"id":"380a627bfe240e53","fromNode":"a6dbbcfe61619f14","fromSide":"left","toNode":"d9fd55a3157f7ade","toSide":"right","label":"build"},
+		{"id":"4f49561d554d67b8","fromNode":"aae35eb6e2635b85","fromSide":"bottom","toNode":"205f2f9f501c9f23","toSide":"top"},
+		{"id":"ede7d108922baa20","fromNode":"205f2f9f501c9f23","fromSide":"bottom","toNode":"4915b973abf07cc8","toSide":"top"},
+		{"id":"b0878f2235d3ca44","fromNode":"4915b973abf07cc8","fromSide":"bottom","toNode":"00a95391b860a2e6","toSide":"top"},
+		{"id":"e68bf54d21cb1905","fromNode":"67776b0b62e361e9","fromSide":"right","toNode":"2ec9ff07edd36be4","toSide":"left"},
+		{"id":"1139850c0bc9224a","fromNode":"bd839b7c825b5270","fromSide":"bottom","toNode":"67776b0b62e361e9","toSide":"top","label":"merge"},
+		{"id":"42c2d305c0cee2de","fromNode":"28697109bd1c3aa8","fromSide":"right","toNode":"7c2f2cc726897396","toSide":"left"},
+		{"id":"ad2f92b77d582686","fromNode":"1f7b2da4ca72c4ea","fromSide":"top","toNode":"28697109bd1c3aa8","toSide":"bottom","label":"merge"},
+		{"id":"fd3e73563fa8dc58","fromNode":"2ec9ff07edd36be4","fromSide":"right","toNode":"3170e1af0661a71e","toSide":"top"},
+		{"id":"7646202f12eae6f7","fromNode":"7c2f2cc726897396","fromSide":"right","toNode":"3170e1af0661a71e","toSide":"bottom"},
+		{"id":"b66dfa66c806806d","fromNode":"e94dc83d5a7ab37c","fromSide":"right","toNode":"3170e1af0661a71e","toSide":"bottom"},
+		{"id":"cecc5eb966c00f3a","fromNode":"3170e1af0661a71e","fromSide":"right","toNode":"4360c247349b8736","toSide":"left"},
+		{"id":"b04fd68a793923be","fromNode":"3170e1af0661a71e","fromSide":"top","toNode":"aae35eb6e2635b85","toSide":"top"},
+		{"id":"d50f153ee646ae18","fromNode":"4e46ee106caa9728","fromSide":"right","toNode":"3170e1af0661a71e","toSide":"top"}
+	]
+}
